@@ -18,6 +18,9 @@
 ;; Pretty word wrapping
 (global-visual-line-mode 1)
 
+;; Scrolling
+(setq-default scroll-step 1)
+
 ;; trailing whitespace
 (setq-default show-trailing-whitespace t)
 ;; but not for ansi-term
