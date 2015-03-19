@@ -15,6 +15,7 @@
 (load "modes/jzon")
 (load "modes/markdown")
 (load "modes/matlab")
+(load "modes/perspective")
 (load "modes/rust")
 (load "modes/scala")
 (load "modes/toml")
