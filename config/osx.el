@@ -16,6 +16,9 @@
       (tool-bar-lines . 0)
       (vertical-scroll-bars))))
 
+; Set keys explicitly later on
+(osx-key-mode 0)
+
 ; Input mode
 (setq default-input-method "MacOSX")
 
