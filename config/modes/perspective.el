@@ -18,8 +18,8 @@
   (defun persp-ext-switch-index (index)
     "Switches to the workspace at INDEX. Does nothing if out of bounds."
     (let ((target (elt (persp-all-names) index)))
-      (when target
-        (persp-switch target))))
+      (if target
+          (progn (persp-switch target) (message target)) (message "index out of bounds"))))
 
   (dotimes (i 6)
     (global-set-key
