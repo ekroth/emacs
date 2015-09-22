@@ -1,3 +1,4 @@
+;; Commands are all prefixed by C-x x. Here are the main commands:
 ;; ### Key       --    Command
 ;; - `s`  --  `persp-switch`: Query a perspective to switch or create
 ;; - `k`  --  `persp-remove-buffer`: Query a buffer to remove from current perspective
