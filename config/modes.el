@@ -16,6 +16,7 @@
 (load "modes/markdown")
 (load "modes/matlab")
 (load "modes/perspective")
+(load "modes/prolog")
 (load "modes/rust")
 (load "modes/scala")
 (load "modes/toml")
