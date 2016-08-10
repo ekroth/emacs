@@ -21,4 +21,5 @@
 (load "modes/projectile")
 (load "modes/rust")
 (load "modes/scala")
+(load "modes/switch-window")
 (load "modes/toml")
