@@ -22,7 +22,7 @@
 (setq-default scroll-step 1)
 
 ;; trailing whitespace
-(setq-default show-trailing-whitespace t)
+(setq-default show-trailing-whitespace nil)
 ;; but not for ansi-term
 (add-hook 'ansi-term
           (lambda () (setq show-trailing-whitespace t)))
