@@ -30,3 +30,13 @@
 ;; font
 (custom-set-variables
 '(font-use-system-font t))
+
+;; kill the mini buffer when it loses focus
+;; happens if the mini buffer is used and
+;; focus is changed using mouse etc.
+(defun stop-using-minibuffer ()
+  "kill the minibuffer"
+  (when (and (>= (recursion-depth) 1) (active-minibuffer-window))
+    (abort-recursive-edit)))
+
+(add-hook 'mouse-leave-buffer-hook 'stop-using-minibuffer)
